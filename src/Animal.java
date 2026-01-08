@@ -16,6 +16,12 @@ public class Animal {
     void eat() {
         System.out.println("L'animal mange.");
     }
+
+    void eat(String nourriture) {
+        System.out.println("L'animal mange " + nourriture + ".");
+    }
+
+
     public void makeSound() {
         System.out.println("L'animal fait un son.");
     }
