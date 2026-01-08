@@ -8,10 +8,9 @@ public class Main {
         System.out.println("Nom de l'animal : " + cow.nom);
         cow.makeSound();
 
-        Dog dog = new Dog("Rex", 3);
 
-
-        dog.eat();
-        cow.eat();
+        Animal animal = new Animal("Animal", 5);
+        animal.eat("de l'herbe");
+        animal.eat();
     }
 }
