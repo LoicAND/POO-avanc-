@@ -7,5 +7,11 @@ public class Main {
 
         System.out.println("Nom de l'animal : " + cow.nom);
         cow.makeSound();
+
+        Dog dog = new Dog("Rex", 3);
+
+
+        dog.eat();
+        cow.eat();
     }
 }
