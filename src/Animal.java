@@ -1,4 +1,4 @@
-public class Animal {
+public abstract class Animal {
     private String pelage;
     protected String nom;
     public int age;
@@ -30,6 +30,8 @@ public class Animal {
     public String getPelage() {
         return pelage;
     }
+
+    public abstract void play();
 }
 
 
