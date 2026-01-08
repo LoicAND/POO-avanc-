@@ -10,10 +10,15 @@ public class Animal {
 
     static void communeRule() {
         System.out.println("Tous les animaux doivent manger pour vivre.");
+
     }
 
+    void eat() {
+        System.out.println("L'animal mange.");
+    }
     public void makeSound() {
         System.out.println("L'animal fait un son.");
     }
 }
+
 
