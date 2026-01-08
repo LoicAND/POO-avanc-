@@ -4,8 +4,10 @@ public class Dog extends Animal {
         super(nom, age);
     }
 
-    @Override
-    void eat() {
-        System.out.println("Le chien mange des croquettes.");
+    void afficherInfos() {
+        System.out.println("Nom : " + nom);
+        System.out.println("Âge : " + age);
+
+        System.out.println("Pelage : " + getPelage());
     }
 }

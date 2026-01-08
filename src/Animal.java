@@ -1,11 +1,12 @@
 public class Animal {
-
-    String nom;
-    int age;
+    private String pelage;
+    protected String nom;
+    public int age;
 
     Animal(String nom, int age) {
         this.nom = nom;
         this.age = age;
+        this.pelage  = "Inconnu";
     }
 
     static void communeRule() {
@@ -24,6 +25,10 @@ public class Animal {
 
     public void makeSound() {
         System.out.println("L'animal fait un son.");
+    }
+
+    public String getPelage() {
+        return pelage;
     }
 }
 
