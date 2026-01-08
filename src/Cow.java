@@ -4,7 +4,7 @@ public class Cow extends Animal {
         super(nom, age);
     }
 
-    void makeSound() {
+    void  makeSound() {
         System.out.println("Meuh !");
     }
 }
