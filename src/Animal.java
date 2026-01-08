@@ -8,6 +8,10 @@ public class Animal {
         this.age = age;
     }
 
+    static void communeRule() {
+        System.out.println("Tous les animaux doivent manger pour vivre.");
+    }
+
     void makeSound() {
         System.out.println("L'animal fait un son.");
     }
